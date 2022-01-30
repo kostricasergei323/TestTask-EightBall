@@ -1,0 +1,15 @@
+/* 
+  Answers.json
+  EightBall
+
+  Created by Сергій Костриця on 29.01.2022.
+  
+*/
+
+{
+   answers: [
+       "Try again",
+       "Yes",
+       "No"
+   ]
+}

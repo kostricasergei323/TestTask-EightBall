@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B36D40C27A6178A0097A1FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36D40B27A6178A0097A1FC /* Settings.swift */; };
+		1B36D40D27A6178A0097A1FC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B36D40B27A6178A0097A1FC /* Settings.swift */; };
 		1BA5A42A27A408400009CBB0 /* EightBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A41A27A4083F0009CBB0 /* EightBallApp.swift */; };
 		1BA5A42B27A408400009CBB0 /* EightBallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A41A27A4083F0009CBB0 /* EightBallApp.swift */; };
 		1BA5A42C27A408400009CBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A41B27A4083F0009CBB0 /* ContentView.swift */; };
 		1BA5A42D27A408400009CBB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A41B27A4083F0009CBB0 /* ContentView.swift */; };
 		1BA5A42E27A408400009CBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5A41C27A4083F0009CBB0 /* Assets.xcassets */; };
 		1BA5A42F27A408400009CBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA5A41C27A4083F0009CBB0 /* Assets.xcassets */; };
+		1BA5A43927A42F0B0009CBB0 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A43827A42F0B0009CBB0 /* ReadData.swift */; };
+		1BA5A43A27A42F0B0009CBB0 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A43827A42F0B0009CBB0 /* ReadData.swift */; };
+		1BA5A43C27A4B65B0009CBB0 /* GetAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A43B27A4B65B0009CBB0 /* GetAnswer.swift */; };
+		1BA5A43D27A4B65B0009CBB0 /* GetAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA5A43B27A4B65B0009CBB0 /* GetAnswer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B10AB0127A6D5270060BB55 /* EightBall--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EightBall--iOS--Info.plist"; sourceTree = "<group>"; };
+		1B36D40B27A6178A0097A1FC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		1BA5A41A27A4083F0009CBB0 /* EightBallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightBallApp.swift; sourceTree = "<group>"; };
 		1BA5A41B27A4083F0009CBB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BA5A41C27A4083F0009CBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BA5A42127A408400009CBB0 /* EightBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA5A42727A408400009CBB0 /* EightBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA5A42927A408400009CBB0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1BA5A43827A42F0B0009CBB0 /* ReadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
+		1BA5A43B27A4B65B0009CBB0 /* GetAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAnswer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 		1BA5A41427A4083F0009CBB0 = {
 			isa = PBXGroup;
 			children = (
+				1B10AB0127A6D5270060BB55 /* EightBall--iOS--Info.plist */,
 				1BA5A41927A4083F0009CBB0 /* Shared */,
 				1BA5A42827A408400009CBB0 /* macOS */,
 				1BA5A42227A408400009CBB0 /* Products */,
@@ -56,6 +67,9 @@
 			children = (
 				1BA5A41A27A4083F0009CBB0 /* EightBallApp.swift */,
 				1BA5A41B27A4083F0009CBB0 /* ContentView.swift */,
+				1B36D40B27A6178A0097A1FC /* Settings.swift */,
+				1BA5A43827A42F0B0009CBB0 /* ReadData.swift */,
+				1BA5A43B27A4B65B0009CBB0 /* GetAnswer.swift */,
 				1BA5A41C27A4083F0009CBB0 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,8 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA5A43927A42F0B0009CBB0 /* ReadData.swift in Sources */,
 				1BA5A42C27A408400009CBB0 /* ContentView.swift in Sources */,
+				1BA5A43C27A4B65B0009CBB0 /* GetAnswer.swift in Sources */,
 				1BA5A42A27A408400009CBB0 /* EightBallApp.swift in Sources */,
+				1B36D40C27A6178A0097A1FC /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BA5A43A27A42F0B0009CBB0 /* ReadData.swift in Sources */,
 				1BA5A42D27A408400009CBB0 /* ContentView.swift in Sources */,
+				1BA5A43D27A4B65B0009CBB0 /* GetAnswer.swift in Sources */,
 				1BA5A42B27A408400009CBB0 /* EightBallApp.swift in Sources */,
+				1B36D40D27A6178A0097A1FC /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,9 +334,11 @@
 				DEVELOPMENT_TEAM = MYN98Q3MVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EightBall--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -344,9 +366,11 @@
 				DEVELOPMENT_TEAM = MYN98Q3MVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EightBall--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
