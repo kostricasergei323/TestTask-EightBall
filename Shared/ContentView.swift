@@ -125,7 +125,6 @@ struct MainView: View {
                     }
             }
         }
-        .offset(y: -50)
     }
 }
 
